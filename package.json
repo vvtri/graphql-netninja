@@ -1,0 +1,26 @@
+{
+  "name": "graphq-netninja",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvtri/graphql-netninja.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvtri/graphql-netninja/issues"
+  },
+  "homepage": "https://github.com/vvtri/graphql-netninja#readme",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.7.5",
+    "graphql": "^16.7.1"
+  }
+}
