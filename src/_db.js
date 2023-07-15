@@ -3,7 +3,22 @@ let games = [
   { id: "2", title: "Final Fantasy 7 Remake", platform: ["PS5", "Xbox"] },
   { id: "3", title: "Elden Ring", platform: ["PS5", "Xbox", "PC"] },
   { id: "4", title: "Mario Kart", platform: ["Switch"] },
-  { id: "5", title: "Pokemon Scarlet", platform: ["PS5", "Xbox", "PC"] },
+  {
+    id: "5",
+    title: "Pokemon Scarlet",
+    platform: ["PS5", "Xbox", "PC"],
+    createdAt: new Date("2023-07-15T06:21:22.312Z"),
+  },
+  {
+    id: "6",
+    title: "LOL",
+    platform: ["PC"],
+    createdAt: new Date("2023-05-25T06:21:22.312Z"),
+    structureInfo: JSON.stringify({
+      type: "MOBA",
+      players: 5,
+    }),
+  },
 ];
 
 let authors = [
